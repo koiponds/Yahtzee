@@ -1,5 +1,6 @@
 import java.util.Arrays;
 public class ScoreCard {
+    private boolean test = false;
     private boolean yahtzeeBonus = false;
     private boolean[] finishedCards = {false, false, false, false, false, false, false, false, false, false, false, false, false};
     private int[] finishedScores = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
